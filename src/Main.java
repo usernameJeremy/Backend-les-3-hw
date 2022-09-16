@@ -24,6 +24,7 @@ public class Main {
                 int inputScanner = scanner.nextInt();
                 System.out.println();
 
+
                 TransLator translate = new TransLator(alphabetic, numeric);
                 String answer = translate.translate(inputScanner);
                 System.out.println(answer);}
